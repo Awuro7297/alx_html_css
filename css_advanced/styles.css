@@ -1,0 +1,237 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* header section */
+nav {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    list-style: none;
+    font-size: 20px;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+
+.about {
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+h1 {
+    color: white;
+    font-size: 120px;
+}
+
+span {
+    color: rgb(252, 251, 251);
+    font-size: 16px;
+    font-weight: bold;
+    margin: 20px;
+    text-align: center;
+    /* border: 2px solid red; */
+}
+
+/* learn from the pros header */
+
+.heading1{
+    /* border: 2px solid red; */
+    margin-top: 90px;
+}
+h2 {
+    text-align: center;
+    font-size: 32px;
+    padding-bottom: 20px;
+    /* margin-bottom: 80px; */
+    
+    /* border: 2px solid rgb(235, 21, 32); */
+}
+
+
+/* button styles */
+button {
+    display: block;
+    margin: 20px auto 0px auto;
+    font-size: 14px;
+    color: white;
+    background-color: #C271FF;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.container {
+    background-image: url(/assets/Object.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* border: 2px solid white; */
+    margin-top: 60px;
+}
+
+.img_container div {
+    color: white;
+    /* border: 2px solid red; */
+   
+}
+
+.txt_container{
+    text-align: center;
+
+}
+
+.Bruce {
+    border-radius: 100px;
+}
+
+.second_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #C271FF;
+    align-items: center;
+    padding: 50px 0 50px 0;
+    font-size: 22px;
+    gap: 40px;
+}
+
+.third_container1 {
+    display: flex;
+    flex-direction: column;
+    margin: 80px;
+}
+
+.third_container {
+    display: flex;
+    flex-direction: row;
+}
+
+.massey_img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    margin: 10px 0 10px 0;
+}
+
+.massey_img img{
+    height: 30px;
+    width: 30px;
+}
+
+.star_rating{
+    display: flex;
+    flex-direction: row;
+}
+
+.ratingtime{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    margin: 10px 0 10px 0;
+    
+}
+
+.fa-solid{
+    color: #C271FF;
+
+}
+
+.membership{
+    display: flex;
+    flex-direction: column;
+    background-color: #071629;
+    color: white;
+    padding: 60px;
+}
+
+.mem_container{
+display: flex;
+flex-direction: row;
+}
+
+.mem_containeritem{
+   text-align: center;
+   /* border: 2px solid rebeccapurple; */
+   padding: 20px;
+   line-height: 2;
+}
+
+.first_2 .second_2{
+    display: flex;
+    flex-direction: row;
+}
+
+.cont{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Text stylying with span */
+.color_text{
+    color: #C271FF;
+    font-size: 32px;
+}
+
+/* faq section */
+
+.faq_section{
+    padding: 40px 80px;
+    
+}
+.first2{
+    display: flex;
+    gap: 100px;
+    
+}
+
+.faq1, .faq2{
+    /* border: 2px solid red; */
+    margin: 20px;
+    line-height: 2;
+    
+}
+
+footer{
+    background-color: #071629;
+    color: #FFFFFF;
+  text-align: center;
+  padding: 40px;
+  /* border: 2px solid red; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    
+
+}
+
+.footer_n{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 30px;
+    color: white;
+}
