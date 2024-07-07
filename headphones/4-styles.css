@@ -97,6 +97,10 @@ button:hover {
     background-color: var(--col-white);
 }
 
+.header .fa-solid{
+    display: none;
+}
+
 /* =============end of header and hero section============ */
 
 
@@ -176,13 +180,14 @@ textarea {
     border: none;
     border-radius: 20px;
     text-transform: uppercase;
-    background-color: var(--col-red);
+    background-color:var(--col-red);
     color: var(--col-white);
+    font-weight: bold;
 }
 
 .form button:hover{
     color: var(--col-red);
-    background-color: var(--col-white);
+    background-color: gray;
 }
 
 /* =========footer container============ */
@@ -216,6 +221,10 @@ textarea {
 
 @media only screen and (max-width: 768px) {
 
+
+    /* -======header symbols=========== */
+   
+
     .heading,
     .hero_section {
         width: 80%;
@@ -239,6 +248,10 @@ textarea {
 @media only screen and (max-width: 480px) {
 
     /* header and hero section */
+
+    .header .fa-solid{
+        display: block;
+    }
     .header {
         display: flex;
         flex-direction: column;
@@ -258,6 +271,7 @@ textarea {
         margin-right: auto;
         margin-left: auto;
     }
+
 
     /* about section */
     .media1,
@@ -293,5 +307,13 @@ textarea {
 /* ==========fotter section========== */
 .social ul{
     gap: 10px; 
+}
+
+.logoandsocial{
+    display: flex;
+    flex-direction: column;
+    color: var(--col-white);
+    align-items: center;
+    gap: 30px;
 }
 }
