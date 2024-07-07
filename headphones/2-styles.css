@@ -137,6 +137,18 @@ button:hover{
 }
 
 
+.polygon h3,
+.polygon p{
+    position: relative;
+    top: -120px;
+    color: var(--col-white);
+}
+
+
+.polygon h3{
+    font-size: 52px;
+}
+
 /* ===========media queries============= */
 
 @media only screen and (max-width: 768px) {
