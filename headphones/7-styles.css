@@ -134,6 +134,21 @@ button:hover {
     justify-content: center;
 }
 
+
+.polygon h3,
+.polygon p{
+    position: relative;
+    top: -120px;
+    color: var(--col-white);
+}
+
+.polygon p{
+    font-size: 12px;
+}
+
+.polygon h3{
+    font-size: 42px;
+}
 /* ==========css animations to the about us and results section========== */
 @keyframes pulsate {
     100% {
