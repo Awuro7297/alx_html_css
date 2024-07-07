@@ -156,6 +156,18 @@ button:hover {
     margin-bottom: 40px;
 }
 
+
+.polygon h3,
+.polygon p{
+    position: relative;
+    top: -120px;
+    color: var(--col-white);
+}
+
+
+.polygon h3{
+    font-size: 42px;
+}
 /* ===========form section================= */
 .form {
     display: flex;
