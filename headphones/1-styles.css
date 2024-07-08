@@ -56,6 +56,10 @@ body{
     margin-top: 40px;
 }
 
+.header .fa-solid{
+    display: none;
+}
+
 .nav_section ul{ 
     display: flex;
     gap: 60px;
@@ -167,6 +171,10 @@ button:hover{
         flex-direction: column;
         gap: 20px;
         
+    }
+
+    .header .fa-solid{
+        display: block;
     }
 
     .nav_section ul{
